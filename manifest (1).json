@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Data Fields",
+      "elements": [
+        {
+          "id": "infoText",
+          "label": "Info Text",
+          "type": "DIMENSION",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "headerText",
+      "label": "Header Text",
+      "type": "TEXT_INPUT",
+      "defaultValue": "Target info"
+    },
+    {
+      "id": "expandedText",
+      "label": "Expanded Text",
+      "type": "TEXT_AREA",
+      "defaultValue": "Add your detailed information here..."
+    },
+    {
+      "id": "headerBgColor",
+      "label": "Header Background Color",
+      "type": "FILL_COLOR",
+      "defaultValue": "#f5f5f5"
+    },
+    {
+      "id": "headerTextColor",
+      "label": "Header Text Color",
+      "type": "FILL_COLOR",
+      "defaultValue": "#333333"
+    },
+    {
+      "id": "expandedBgColor",
+      "label": "Expanded Background Color",
+      "type": "FILL_COLOR",
+      "defaultValue": "#ffffff"
+    },
+    {
+      "id": "expandedTextColor",
+      "label": "Expanded Text Color",
+      "type": "FILL_COLOR",
+      "defaultValue": "#666666"
+    },
+    {
+      "id": "borderColor",
+      "label": "Border Color",
+      "type": "FILL_COLOR",
+      "defaultValue": "#dddddd"
+    },
+    {
+      "id": "fontSize",
+      "label": "Font Size",
+      "type": "FONT_SIZE",
+      "defaultValue": "14px"
+    }
+  ],
+  "interactions": [],
+  "components": [
+    {
+      "id": "expandable-info",
+      "name": "Expandable Info Panel",
+      "description": "A collapsible info panel that expands to show detailed content",
+      "iconUrl": "",
+      "resource": {
+        "js": "component-bundled.js"
+      }
+    }
+  ]
+}
